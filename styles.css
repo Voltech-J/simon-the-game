@@ -26,13 +26,20 @@ body {
 }
 
 .mobile-reset {
-  background-color: white;
-  border: 10px solid black;
-  border-radius: 20%;
-  left: 0;
-  margin-left: 3%;
-  position: absolute;
-  text-align: center;
+  visibility: hidden;
+}
+
+@media (max-width: 1028px) {
+  .mobile-reset {
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 20%;
+    left: 0;
+    margin-left: 3%;
+    position: absolute;
+    text-align: center;
+    visibility: visible;
+  }
 }
 
 .game-over {

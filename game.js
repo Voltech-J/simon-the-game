@@ -14,16 +14,14 @@ $(document).keypress(function() {
     nextSequence();
   }
 });
-if ($(window).width() < 960) {
-  $(".mobile-reset").click(function() {
-    if (!started) {
-      started = true;
-      nextSequence();
-    }
-  });
-} else {
-  $(".mobile-reset").hide();
-}
+
+$(".mobile-reset").click(function() {
+  if (!started) {
+    started = true;
+    nextSequence();
+  }
+});
+
 
 $(".btn").click(function() {
 
