@@ -26,19 +26,19 @@ body {
 }
 
 .mobile-reset {
-  visibility: hidden;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 20%;
+  left: 0;
+  margin-left: 3%;
+  position: absolute;
+  text-align: center;
+  visibility: visible;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 1028px) {
   .mobile-reset {
-    background-color: white;
-    border: 10px solid black;
-    border-radius: 20%;
-    left: 0;
-    margin-left: 3%;
-    position: absolute;
-    text-align: center;
-    visibility: visible;
+    visibility: hidden;
   }
 }
 
