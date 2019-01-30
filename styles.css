@@ -29,7 +29,7 @@ body {
   visibility: hidden;
 }
 
-@media (max-width: 1028px) {
+@media only screen and (max-width: 600px) {
   .mobile-reset {
     background-color: white;
     border: 10px solid black;
