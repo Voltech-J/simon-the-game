@@ -25,6 +25,16 @@ body {
   width: 200px;
 }
 
+.mobile-reset {
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 20%;
+  left: 0;
+  margin-left: 3%;
+  position: absolute;
+  text-align: center;
+}
+
 .game-over {
   background-color: red;
   opacity: 0.8;

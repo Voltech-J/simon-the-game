@@ -14,6 +14,16 @@ $(document).keypress(function() {
     nextSequence();
   }
 });
+if ($(window).width() < 960) {
+  $(".mobile-reset").click(function() {
+    if (!started) {
+      started = true;
+      nextSequence();
+    }
+  });
+} else {
+  $(".mobile-reset").hide();
+}
 
 $(".btn").click(function() {
 
